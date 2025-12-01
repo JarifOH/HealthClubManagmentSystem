@@ -7,7 +7,7 @@ def get_connection():
             database="comp3005FinalProject",    
             user="postgres",          
             password="password", 
-            port="port_number"               
+            port="5432"               
         )
         print("Database connection successful!")
         return conn
